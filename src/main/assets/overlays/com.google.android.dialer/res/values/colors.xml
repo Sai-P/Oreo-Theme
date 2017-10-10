@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_dialer_light">#ff000000</color>    <!--OG:#fffafafa-->
-    <color name="background_dialer_results">#ff000000</color>    <!--OG:#fff9f9f9-->
-    <color name="background_dialer_white">#ff000000</color>    <!--OG:#ffffffff-->
-    <color name="background_dialpad">#ff000000</color>    <!--OG:#fffcfcfc-->
+    <color name="background_dialer_light">@*android:color/background_material_dark</color>    <!--OG:#fffafafa-->
+    <color name="background_dialer_results">@*android:color/background_material_dark</color>    <!--OG:#fff9f9f9-->
+    <color name="background_dialer_white">@*android:color/background_material_dark</color>    <!--OG:#ffffffff-->
+    <color name="background_dialpad">@*android:color/primary_material_dark</color>    <!--OG:#fffcfcfc-->
     <color name="background_floating_material_light">#00000000</color>   <!--OG:@android:color/white-->
-    <color name="blocked_number_background">#ff000000</color>    <!--OG:#ffffffff-->
+    <color name="blocked_number_background">@*android:color/background_material_dark</color>    <!--OG:#ffffffff-->
     <color name="blocked_number_primary_text_color">#ffffffff</color>    <!--OG:@color/dialer_primary_text_color-->
     <color name="call_log_action_color">#b3ffffff</color>   <!--OG:#b3000000-->
     <color name="call_log_action_divider">#00000000</color>   <!--OG:#ffeeeeee-->
@@ -15,20 +15,20 @@
     <color name="call_log_primary_color">#deffffff</color>    <!--OG:#de000000-->
     <color name="call_log_unread_text_color">#deffffff</color>   <!--OG:#de000000-->
     <color name="call_log_voicemail_transcript_color">#deffffff</color>   <!--OG:#de000000-->
-    <color name="call_subject_history_background">#ff000000</color>    <!--OG:#ffffffff-->
-    <color name="cardview_light_background">#ff000000</color>    <!--OG:#ffffffff-->
+    <color name="call_subject_history_background">@*android:color/background_material_dark</color>    <!--OG:#ffffffff-->
+    <color name="cardview_light_background">@*android:color/primary_material_dark</color>    <!--OG:#ffffffff-->
     <color name="contact_list_name_text_color">#ffffffff</color>    <!--OG:@color/dialer_primary_text_color-->
     <color name="dialer_primary_text_color">#ffb2b2b2</color>    <!--OG:#ff333333-->
     <color name="dialer_secondary_text_color">#ffb2b2b2</color>    <!--OG:#ff636363-->
     <color name="dialpad_digits_text_color">#ffffffff</color>    <!--OG:#ff333333-->
     <color name="dialpad_icon_tint">#89ffffff</color>    <!--OG:#89000000-->
-    <color name="incall_background_gradient_bottom">#99000000</color>   <!--OG:#cc229feb-->
+    <color name="incall_background_gradient_bottom">#81000000</color>   <!--OG:#cc229feb-->
     <color name="incall_background_gradient_middle">#99000000</color>   <!--OG:#e91141bb-->
     <color name="incall_background_gradient_top">#99000000</color>   <!--OG:#e91141bb-->
     <color name="incall_background_multiwindow">#99000000</color>   <!--OG:#e91141bb-->
-    <color name="searchbox_background_color">#ff000000</color>    <!--OG:#ffffffff-->
+    <color name="searchbox_background_color">@*android:color/primary_material_dark</color>    <!--OG:#ffffffff-->
     <color name="searchbox_hint_text_color">#ffffffff</color>    <!--OG:#ff737373-->
-    <color name="setting_background_color">#ff000000</color>    <!--OG:#ffffffff-->
+    <color name="setting_background_color">@*android:color/background_material_dark</color>    <!--OG:#ffffffff-->
     <color name="setting_primary_color">#ffffffff</color>    <!--OG:@color/dialer_primary_text_color-->
     <color name="voicemail_icon_disabled_tint">#80ffffff</color>   <!--OG:80000000-->
     <color name="voicemail_icon_tint">#ffffffff</color>   <!--OG:@color/call_log_icon_tint-->
