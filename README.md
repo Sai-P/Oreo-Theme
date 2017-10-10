@@ -9,4 +9,4 @@
 
 ### Issues Tracker
 
-Try to be as clear as possible, provide additional information such as screenshots and logs if needed. Please use correct english and stay on topic. Off-topic or non-english/non-understandable issues will be closed ASAP.
+Try to be as clear as possible, provide additional information such as screenshots and logs if needed. Please use proper English and stay on topic. Off-topic or non-english/non-understandable issues will be closed ASAP.
