@@ -11,5 +11,6 @@
     <color name="background_floating_material_dark">#ff1b1b21</color>   <!--OG:@color/material_grey_800-->
     <color name="bright_foreground_light_disabled">#81232329</color>   <!--OG:##80000000-->
     <color name="background_holo_dark">#ff16161c</color>   <!--OG:#ff000000-->
+    <color name="user_icon_8">#ffffffff</color>
 
 </resources>

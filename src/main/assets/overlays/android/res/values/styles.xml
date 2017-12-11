@@ -5,7 +5,7 @@
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
         <item name="android:colorControlNormal">#ffffffff</item>	<!--OG:?textColorPrimary-->
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_device_default_settings_light-->
-        <item name="android:colorPrimaryDark">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_dark_device_default_settings_light-->
+        <item name="android:colorPrimaryDark">@*android:color/background_floating_material_dark</item>    <!--OG:@color/primary_dark_device_default_settings_light-->
         <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
         <item name="android:colorSecondary">@*android:color/background_material_dark</item> 	<!--OG:@color/secondary_device_default_settings_light-->
         <!--QS Divider & Power Menu-->
@@ -18,7 +18,7 @@
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_device_default_settings_light-->
         <item name="android:colorPrimaryDark">@*android:color/background_holo_dark</item>   <!--OG:@color/primary_dark_device_default_settings_light-->
         <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>    <!--OG:@color/accent_device_default_light-->
-        <item name="android:navigationBarColor">@*android:color/primary_material_dark</item>   <!--OG:@color/white-->
+        <!--<item name="android:navigationBarColor">@*android:color/primary_material_dark</item>   &lt;!&ndash;OG:@color/white&ndash;&gt;-->
         <item name="android:colorEdgeEffect">#ffffffff</item>    <!--OG:@color/black-->
         <item name="android:colorSecondary">@*android:color/background_material_dark</item>    <!--OG:@color/secondary_device_default_settings_light-->
         <!--Self-defined-->
@@ -31,7 +31,6 @@
     <style name="AlertDialog.DeviceDefault" parent="@*android:style/Theme.DeviceDefault.Dialog" />
     <style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="@*android:style/Widget.Material.ButtonBar.AlertDialog" />
 
-    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
     <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth" />
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar" />
@@ -40,7 +39,7 @@
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
         <item name="android:colorPrimaryDark">@*android:color/primary_material_dark</item>
         <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
-        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
     </style>
     <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
 
