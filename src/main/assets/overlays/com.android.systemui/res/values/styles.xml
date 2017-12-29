@@ -25,4 +25,14 @@
     <style name="TextAppearance.NotificationInfo.Secondary.Link" parent="@style/TextAppearance.NotificationInfo.Secondary">
         <item name="android:textColor">@*android:color/material_deep_teal_500</item>   <!--OG:?android:colorAccent-->
     </style>
+
+    <style name="qs_theme" parent="@*com.android.systemui:style/qs_base">
+        <item name="*com.android.systemui:darkIconTheme">@*com.android.systemui:style/QSIconTheme</item>
+        <item name="*com.android.systemui:lightIconTheme">@*com.android.systemui:style/QSIconTheme</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
+        <item name="android:colorSecondary">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorControlNormal">@*android:color/material_deep_teal_500</item>
+    </style>
 </resources>
