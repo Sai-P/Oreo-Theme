@@ -3,7 +3,7 @@
 
     <!--QS related values-->
     <style name="Theme.DeviceDefault.QuickSettings" parent="@*android:style/Theme.DeviceDefault">
-        <item name="android:colorControlNormal">@*android:color/material_deep_teal_500</item>	<!--OG:?textColorPrimary-->
+        <item name="android:colorControlNormal">#ffffffff</item>	<!--OG:?textColorPrimary-->
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_device_default_settings_light-->
         <item name="android:colorPrimaryDark">@*android:color/background_floating_material_dark</item>    <!--OG:@color/primary_dark_device_default_settings_light-->
         <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
