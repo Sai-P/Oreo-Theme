@@ -8,6 +8,8 @@
         <item name="android:colorPrimaryDark">@*android:color/background_floating_material_dark</item>    <!--OG:@color/primary_dark_device_default_settings_light-->
         <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>
         <item name="android:colorSecondary">@*android:color/background_material_dark</item> 	<!--OG:@color/secondary_device_default_settings_light-->
+        <!--Power Menu-->
+        <item name="android:backgroundTint">@*android:color/primary_material_dark</item>   <!--Self-defined-->
     </style>
 
     <!--Settings App-->
@@ -20,15 +22,38 @@
         <item name="android:colorEdgeEffect">#ffffffff</item>    <!--OG:@color/black-->
         <item name="android:colorSecondary">@*android:color/background_material_dark</item>    <!--OG:@color/secondary_device_default_settings_light-->
         <item name="android:windowLightNavigationBar">false</item>
-        <item name="android:navigationBarDividerColor">#1f000000</item>
+        <item name="android:navigationBarDividerColor">@*android:color/primary_material_dark</item>
         <!--Self-defined-->
         <item name="android:colorControlNormal">@*android:color/material_deep_teal_500</item>
         <item name="android:textColorPrimaryInverse">@*android:color/background_material_dark</item>
     </style>
 
+    <!--Share Menu-->
+    <style name="Theme.DeviceDefault.Resolver" parent="@*android:style/Theme.Material.Panel">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+
     <!--Dialog-->
+    <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_device_default_settings_light-->
+        <item name="android:colorPrimaryDark">@*android:color/background_holo_dark</item>   <!--OG:@color/primary_dark_device_default_settings_light-->
+        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>    <!--OG:@color/accent_device_default_light-->
+        <item name="android:colorSecondary">@*android:color/background_material_dark</item>    <!--OG:@color/secondary_device_default_settings_light-->
+    </style>
     <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert" />
-    <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />
+
+    <!-- WARNING: Breaks Pixel Launcher Text -->
+    <!--<style name="Theme.DeviceDefault.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />-->
+
     <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@*android:style/Theme.Material.NoActionBar.Fullscreen" />
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
     <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth" />
@@ -183,6 +208,23 @@
         <item name="android:alertDialogTheme">@*android:style/Theme.Material.Dialog.Alert</item>
     </style>
     <style name="ThemeOverlay.DeviceDefault.Popup.Light" parent="@*android:style/ThemeOverlay.Material" />
+
+
+    <!--Misc.-->
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@*android:style/Theme.Material">
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="ThemeOverlay.DeviceDefault.Popup.Light" parent="@*android:style/ThemeOverlay.Material" />
+    <style name="Theme.Material.Light.DarkActionBar" parent="@*android:style/Theme.Material">
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:popupTheme">@*android:style/ThemeOverlay.Material</item>
+    </style>
+
 
     <!--Text Appearance-->
     <style name="TextAppearance.StatusBar" parent="@*android:style/TextAppearance">

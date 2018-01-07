@@ -22,7 +22,4 @@
         <item name="android:textColor">#ffffffff</item>   <!--OG:?android:textColorPrimary-->
         <item name="android:alpha">0.54</item>
     </style>
-    <style name="TextAppearance.NotificationInfo.Secondary.Link" parent="@*com.android.systemui:style/TextAppearance.NotificationInfo.Secondary">
-        <item name="android:textColor">@*android:color/material_deep_teal_500</item>   <!--OG:?android:colorAccent-->
-    </style>
 </resources>
