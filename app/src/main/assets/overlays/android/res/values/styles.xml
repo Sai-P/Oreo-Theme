@@ -26,6 +26,10 @@
         <!--Self-defined-->
         <item name="android:colorControlNormal">@*android:color/material_deep_teal_500</item>
         <item name="android:textColorPrimaryInverse">@*android:color/background_material_dark</item>
+        <!--Experimental: Translucency-->
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
 
     <!--Share Menu-->
