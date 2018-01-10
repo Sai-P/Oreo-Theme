@@ -10,7 +10,7 @@
     <!--Other-->
     <color name="background_floating_material_dark">#81000000</color>   <!--OG:@color/material_grey_800-->
     <color name="bright_foreground_light_disabled">#81000000</color>   <!--OG:##80000000-->
-    <color name="background_holo_dark">#cf000000</color>   <!--OG:#ff000000-->
+    <color name="background_holo_dark">#81000000</color>   <!--OG:#ff000000-->
     <color name="user_icon_8">#ffffffff</color>
 
 </resources>
