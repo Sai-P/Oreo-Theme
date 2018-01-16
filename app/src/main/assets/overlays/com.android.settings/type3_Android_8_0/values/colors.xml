@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Search Panel BG-->
     <color name="bluetooth_dialog_text_color">#8affffff</color>   <!--OG:#8a000000-->
+    <!--OmniMeme Tears-->
+    <color name="omni_logo_color">@*android:color/material_deep_teal_500</color>
+    <!--Search Panel BG-->
     <color name="cardview_shadow_end_color">#00000000</color>   <!--OG:#03000000-->
     <color name="cardview_shadow_start_color">#00000000</color>   <!--OG:37000000-->
     <color name="condition_card_background">@*android:color/background_holo_dark</color>   <!--OG:#fff8f8f8-->
