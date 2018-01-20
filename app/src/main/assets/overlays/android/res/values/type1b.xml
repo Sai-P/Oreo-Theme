@@ -15,18 +15,7 @@
 
     <!--Settings App-->
     <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material">
-        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.DeviceDefault.ActionBar.Accent</item>    <!--OG:@style/ThemeOverlay.DeviceDefault.ActionBar.Accent-->
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_device_default_settings_light-->
-        <item name="android:colorPrimaryDark">@*android:color/background_holo_dark</item>   <!--OG:@color/primary_dark_device_default_settings_light-->
-        <item name="android:colorAccent">@*android:color/material_deep_teal_500</item>    <!--OG:@color/accent_device_default_light-->
-        <item name="android:navigationBarColor">@*android:color/primary_material_dark</item>   <!--OG:@color/white-->
-        <item name="android:colorEdgeEffect">#ffffffff</item>    <!--OG:@color/black-->
-        <item name="android:colorSecondary">@*android:color/background_material_dark</item>    <!--OG:@color/secondary_device_default_settings_light-->
-        <item name="android:windowLightNavigationBar">false</item>
-        <item name="android:navigationBarDividerColor">@*android:color/primary_material_dark</item>
-        <!--Self-defined-->
-        <item name="android:colorControlNormal">@*android:color/material_deep_teal_500</item>
-        <item name="android:textColorPrimaryInverse">@*android:color/background_material_dark</item>
+
     </style>
 
 </resources>

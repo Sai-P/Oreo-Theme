@@ -13,4 +13,9 @@
     <color name="background_holo_dark">#ff000000</color>
     <color name="user_icon_8">#ffffffff</color>
 
+    <!--Settings App-->
+    <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material">
+
+    </style>
+
 </resources>
