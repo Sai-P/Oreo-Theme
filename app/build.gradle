@@ -37,6 +37,12 @@ android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
 
+    android.applicationVariants.all { final variant ->
+        variant.outputs.all {
+            outputFileName = "oreo-theme-v${variant.versionCode}.apk"
+        }
+    }
+
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
         // thoroughly!
@@ -46,8 +52,8 @@ android {
         minSdkVersion 26
         targetSdkVersion 27
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 6
-        versionName "six"
+        versionCode 8
+        versionName "eight"
 
         // Themers: Do not touch this, they will only formulate integrity structure of the core
         //          template
@@ -82,9 +88,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.github.javiersantos:PiracyChecker:1.1'
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.github.javiersantos:PiracyChecker:1.1'
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version") {
         transitive = true
     }
 }
