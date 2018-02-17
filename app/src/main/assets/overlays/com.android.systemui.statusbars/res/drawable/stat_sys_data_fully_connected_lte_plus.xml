@@ -1,0 +1,33 @@
+<!--
+    Copyright (C) 2016 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="11.08dp"
+    android:height="14.0dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="19.0">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M2.000000,9.700000l2.000000,0.000000L4.000000,11.000000L0.300000,11.000000L0.300000,2.500000L2.000000,2.500000L2.000000,9.700000z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M7.000000,2.500000L7.000000,11.000000L5.300000,11.000000L5.300000,2.500000z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12.600000,3.800000L11.300000,3.800000L11.300000,11.000000L9.600000,11.000000L9.600000,3.800000L8.300000,3.800000L8.300000,2.500000l4.300000,0.000000L12.600000,3.800000z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="m 15.927499,6.7545714 c -0.445001,0 -0.8025,-0.3503516 -0.8025,-0.7802162 0,-0.4025316 0.2575,-0.6857947 0.7,-0.7752456 0.4425,-0.089448 0.9,-0.3006562 1.155,-0.6410688 0.09751,0.3205339 0.145,0.6584618 0.145,1.0038439 0,0.6559781 -0.535,1.1926867 -1.1975,1.1926867 m 0.4475,-4.554571 c 0,0 0.185,0.6584618 0.185,1.1926856 0,0.5118614 -0.3375,0.9268177 -0.8525,0.9268177 -0.517501,0 -0.9075,-0.4149563 -0.9075,-0.9268177 l 0.0075,-0.091936 C 14.3025,3.8970928 14,4.6698548 14,5.5121889 A 2.0000002,1.9878108 0 0 0 15.999999,7.5 2.0000002,1.9878108 0 0 0 18,5.5121889 C 18,4.170417 17.3525,2.9777304 16.375,2.2 Z" />
+</vector>
