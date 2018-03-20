@@ -3,7 +3,7 @@
 
     <!--Settings App-->
     <color name="background_material_dark">#ff1c1c1d</color>    <!--OG:@color/material_grey_850-->
-	
+
     <!--Volume Panel-->
     <color name="primary_material_dark">#ff1c1c1d</color>    <!--OG:@color/material_grey_900-->
 
@@ -12,5 +12,4 @@
     <color name="bright_foreground_light_disabled">#81212121</color>   <!--OG:##80000000-->
     <color name="background_holo_dark">#ff1c1c1d</color>   <!--OG:#ff000000-->
     <color name="user_icon_8">#ffffffff</color>
-
 </resources>

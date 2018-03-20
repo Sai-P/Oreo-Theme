@@ -3,7 +3,7 @@
 
     <!--Settings App-->
     <color name="background_material_dark">#81000000</color>    <!--OG:@color/material_grey_850-->
-	
+
     <!--Volume Panel-->
     <color name="primary_material_dark">#81000000</color>    <!--OG:@color/material_grey_900-->
 
@@ -20,5 +20,4 @@
         <item name="android:windowIsTranslucent">false</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
-
 </resources>
