@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@*com.google.android.gms:dimen/profile_card_post_margin_vertical" android:layout_marginStart="@*com.google.android.gms:dimen/profile_card_post_margin_start_end" android:layout_marginEnd="@*com.google.android.gms:dimen/profile_card_post_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@*com.google.android.gms:dimen/profile_card_expanding_entry_header_text_size" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:id="@*com.google.android.gms:id/organizations_group_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@*com.google.android.gms:id/organizations_group_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@*com.google.android.gms:id/organizations_group_header" />
+</RelativeLayout>
