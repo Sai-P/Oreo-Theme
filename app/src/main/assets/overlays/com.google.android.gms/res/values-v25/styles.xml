@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/primary_material_dark</item>
+        <item name="android:backgroundTint">@*android:color/primary_material_dark</item>
+    </style>
+    <style name="common.Theme.Base.NoAppCompat.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="common.Theme.Base.NoAppCompat.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth">
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:backgroundTint">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="TrustAgentNotificationWithNoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@*android:color/primary_material_dark</item>
+    </style>
+
+</resources>

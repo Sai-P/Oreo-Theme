@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:layout_gravity="end" android:id="@*com.google.android.gms:id/audience_view_editable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Edit" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@*com.google.android.gms:style/audience.Widget.Button.Auth" />
+    <com.google.android.gms.common.ui.widget.MultiLineLayout android:gravity="center_vertical" android:id="@*com.google.android.gms:id/audience_view_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@*com.google.android.gms:id/audience_view_editable" android:layout_alignParentStart="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@*com.google.android.gms:id/audience_view_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:layout_centerVertical="true" android:layout_toStartOf="@*com.google.android.gms:id/audience_view_editable" android:layout_alignParentStart="true" />
+</RelativeLayout>

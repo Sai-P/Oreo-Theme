@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@*com.google.android.gms:id/item_layout" android:paddingTop="@*com.google.android.gms:dimen/sp_directory_spacing_top" android:paddingBottom="@*com.google.android.gms:dimen/sp_directory_spacing_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@*com.google.android.gms:dimen/sp_directory_spacing_start" android:paddingEnd="@*com.google.android.gms:dimen/sp_directory_spacing_end" style="@*com.google.android.gms:style/common.Widget.SelectableItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@*com.google.android.gms:dimen/sp_directory_field_name_text_size" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*com.google.android.gms:id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <TextView android:textSize="@*com.google.android.gms:dimen/sp_directory_field_value_text_size" android:textColor="#ffdddddd" android:id="@*com.google.android.gms:id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@*com.google.android.gms:id/header" android:textAlignment="viewStart" />
+</RelativeLayout>

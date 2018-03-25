@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertThemeSelector" parent="@*android:style/Theme.Material.Panel">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="DialogActivityStyle" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PeopleButton.Borderless" parent="@*android:style/Widget.Material.Button.Borderless" />
+    <style name="PeopleDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Platform.AppCompat" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@*android:color/primary_material_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:backgroundTint">@*android:color/primary_material_dark</item>
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#ffffffff</item>
+        <item name="android:textColorPrimaryInverse">#ffffffff</item>
+        <item name="android:textColorSecondaryInverse">#b3ffffff</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorHighlight">#ffbdbdbd</item>
+        <item name="android:textColorHint">#b3ffffff</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="drive_Button_Platform" parent="@*android:style/Widget.Material.Button.Borderless" />
+
+    <style name="drive_Spinner" parent="@*android:style/Widget.Material.Spinner.Underlined" />
+
+    <style name="SetBackupAccountActivity" parent="@*android:style/Theme.Material.Dialog" />
+
+
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:backgroundTint">@*android:color/primary_material_dark</item>
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
+</resources>
