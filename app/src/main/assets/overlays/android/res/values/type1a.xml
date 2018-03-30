@@ -2,10 +2,10 @@
 <resources>
 
 	<!--Accent Colour-->
-    <color name="material_deep_teal_500">#ff4285f4</color> <!--OG:#ff009688-->
-    <color name="system_notification_accent_color">#ff4285f4</color> <!--OG:#ff607d8b-->
+    <color name="material_deep_teal_500">#1A73E8</color> <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#1A73E8</color> <!--OG:#ff607d8b-->
 
 	<!--Volume Panel-->
-    <color name="material_deep_teal_200">#ff4285f4</color>    <!--OG:#ff80cbc4-->
+    <color name="material_deep_teal_200">#1A73E8</color>    <!--OG:#ff80cbc4-->
 	
 </resources>
