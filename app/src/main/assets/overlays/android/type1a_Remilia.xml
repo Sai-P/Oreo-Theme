@@ -4,9 +4,9 @@ Author: Sai (InFlames03)
 -->
 <resources>
     <!--Accent Colour-->
-    <color name="material_deep_teal_500">#ffd3b0da</color>   <!--OG:#ff009688-->
-    <color name="system_notification_accent_color">#ffd3b0da</color>   <!--OG:#ff607d8b-->
+    <color name="material_deep_teal_500">#D3B0DA</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#D3B0DA</color>   <!--OG:#ff607d8b-->
 
     <!--Volume Panel-->
-    <color name="material_deep_teal_200">#ffd3b0da</color>    <!--OG:#ff80cbc4-->
+    <color name="material_deep_teal_200">#D3B0DA</color>    <!--OG:#ff80cbc4-->
 </resources>
