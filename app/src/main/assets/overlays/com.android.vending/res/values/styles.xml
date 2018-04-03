@@ -101,7 +101,7 @@
         <item name="android:textSize">@*com.android.vending:dimen/play_medium_size</item>
         <item name="android:textColor">#ffdddddd</item>
         <item name="android:singleLine">false</item>
-        <item name="com.android.vending:lastLineOverdrawColor">#ff1b1b21</item>
+        <!--<item name="com.android.vending:lastLineOverdrawColor">@*android:color/background_floating_material_dark</item>-->
     </style>
 
     <style name="QuicklinksCircleTitle" parent="@*com.android.vending:style/PlayMediumPlainText">

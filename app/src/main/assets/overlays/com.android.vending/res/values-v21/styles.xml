@@ -94,7 +94,6 @@
     <style name="Theme.InstrumentManager.Light" parent="@*com.android.vending:style/Theme.Common.InstrumentManager.Light">
         <item name="*com.android.vending:imProgressBarTopMargin">-5.0dip</item>
         <item name="*com.android.vending:uicCardLogoGridToggleButtonStartMargin">-8.0dip</item>
-        <item name="*com.android.vending:uicCardLogoGridToggleButtonStyle">@*android:style/Widget.Material.Button.Borderless.Colored</item>
         <item name="*com.android.vending:uicCardLogoGridToggleButtonTopMargin">0.0dip</item>
         <item name="*com.android.vending:uicDialogBodyStartEndMargin">24.0dip</item>
         <item name="*com.android.vending:uicDialogBodyTopBottomMargin">24.0dip</item>
