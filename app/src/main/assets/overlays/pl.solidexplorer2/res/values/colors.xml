@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Accent-->
+    <color name="amber">@*android:color/accent_material_dark</color>
+    <!--Theme Picker Colours-->
     <color name="background_material_dark">#1C1C1D</color>
     <color name="blue_grey">#212121</color>
     <color name="grey">#000000</color>
