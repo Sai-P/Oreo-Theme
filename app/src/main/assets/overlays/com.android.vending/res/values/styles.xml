@@ -387,4 +387,6 @@
         <item name="*com.android.vending:playCardClipToOutline">true</item>
     </style>
 
+    <item type="LEMON_languages" name="LEMON_languages_key"></item>
+
 </resources>
