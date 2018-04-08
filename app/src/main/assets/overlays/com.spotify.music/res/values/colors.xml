@@ -33,6 +33,7 @@
     <color name="data_saver_dark_20">#32000000</color>
     <color name="free_tier_data_saver_dark">@*android:color/background_floating_material_dark</color>
     <color name="free_tier_data_saver_dark_20">#32000000</color>
+    <color name="cat_medium_green">@*android:color/material_deep_teal_500</color>
     <color name="glue_green">@*android:color/material_deep_teal_500</color>
     <color name="glue_green_dark">@*android:color/material_deep_teal_500</color>
     <color name="glue_green_light">@*android:color/material_deep_teal_500</color>
