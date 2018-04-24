@@ -11,4 +11,7 @@
     <color name="splashscreen_background">@*android:color/background_material_dark</color>
     <color name="showcase_tab_text_color">@android:color/white</color>
     <color name="showcase_tab_text_color_selected">@android:color/white</color>
+    <color name="theme_card_background">@*android:color/background_material_dark</color>
+    <color name="main_screen_card_theme_title">@android:color/white</color>
+    <color name="floatui_dialog_background">@*android:color/background_material_dark</color>
 </resources>
