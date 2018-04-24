@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@*android:color/background_material_dark</color>
+    <color name="colorPrimaryDark">@*android:color/background_material_dark</color>
+    <color name="statusBarColor">@*android:color/background_material_dark</color>
+    <color name="colorAccent">@*android:color/material_deep_teal_500</color>
+    <color name="bottombar_bar_background">@*android:color/background_material_dark</color>
+    <color name="bottombar_icon_text_selected">@android:color/white</color>
+    <color name="lunchbar_background">@*android:color/background_material_dark</color>
+    <color name="lunchbar_text">@android:color/white</color>
+    <color name="splashscreen_background">@*android:color/background_material_dark</color>
+    <color name="showcase_tab_text_color">@android:color/white</color>
+    <color name="showcase_tab_text_color_selected">@android:color/white</color>
+</resources>
