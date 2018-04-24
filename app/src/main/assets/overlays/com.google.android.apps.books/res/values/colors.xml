@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_floating_material_light">@*android:color/primary_material_dark</color>
+    <color name="background_material_light">@*android:color/primary_material_dark</color>
+    <color name="books_corpora_primary">#ff0277bd</color>
+    <color name="books_play_fg_secondary">#ff919191</color>
+    <color name="bright_foreground_disabled_material_light">#80ffffff</color>
+    <color name="bright_foreground_material_light">#ffffffff</color>
+    <color name="card_background_dark">@*android:color/background_floating_material_dark</color>
+    <color name="card_background_light">@*android:color/background_floating_material_dark</color>
+    <color name="card_background_light_track">@*android:color/background_floating_material_dark</color>
+    <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
+    <color name="carousel_foreground">#ff025188</color>
+    <color name="dim_foreground_material_light">@*android:color/background_floating_material_dark</color>
+    <color name="eob_white_80pc">#cc212121</color>
+    <color name="explore_card_background">@*android:color/background_floating_material_dark</color>
+    <color name="got_it_button_normal_color">#33ffffff</color>
+    <color name="info_card_secondary_light">#ff919191</color>
+    <color name="material_grey_700">#ff919191</color>
+    <color name="material_grey_900">#ff545454</color>
+    <color name="play_card_light_background">@*android:color/background_floating_material_dark</color>
+    <color name="play_drawer_separator">#00000000</color>
+    <color name="play_fg_primary">#ffffffff</color>
+    <color name="play_white">@*android:color/background_floating_material_dark</color>
+    <color name="search_card_background_dark">@*android:color/primary_material_dark</color>
+    <color name="search_card_header_box_dark">@*android:color/background_floating_material_dark</color>
+    <color name="search_card_header_box_top_line_dark">@*android:color/background_floating_material_dark</color>
+</resources>
