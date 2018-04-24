@@ -1,0 +1,7 @@
+<resources>
+    <!--Accents-->
+    <color name="deep_transparent_twitter_blue">@*android:color/material_deep_teal_500</color>   <!--OG:#cc1da1f2-->
+    <color name="twitter_blue">@*android:color/material_deep_teal_500</color>   <!--OG:#ff1da1f2-->
+    <color name="twitter_blue_30">@*android:color/material_deep_teal_500</color>   <!--OG:#4d1da1f2-->
+    <color name="twitter_blue_50">@*android:color/material_deep_teal_500</color>   <!--OG:#801da1f2-->
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <!--Backgrounds-->
+    <!--Tweets-->
+    <color name="app_background">@*android:color/primary_material_dark</color>   <!--OG:#ff1b2836-->
+    <!--BG behind tweets-->
+    <color name="faded_gray">@*android:color/background_floating_material_dark</color>   <!--OG:#ff141d26-->
+    <!--Statusbar-->
+    <color name="status_bar_color">@*android:color/primary_material_dark</color>   <!--OG:@color/app_background-->
+    <color name="status_bar_transluscent">@*android:color/primary_material_dark</color>
+    <!--Actionbar-->
+    <color name="toolbar_bg_color">@*android:color/background_floating_material_dark</color>
+    <!--Toolbar Icons-->
+    <color name="deep_gray">#ff999999</color>   <!--OG:#ff8899a6-->
+    <color name="deep_gray_30">#4d999999</color>   <!--OG:#4d8899a6-->
+    <color name="deep_gray_50">#80999999</color>   <!--OG:#808899a6-->
+    <!--Accents-->
+    <!--Text-->
+    <color name="text_blue">@*android:color/material_deep_teal_500</color>   <!--OG:@color/twitter_blue-->
+</resources>
