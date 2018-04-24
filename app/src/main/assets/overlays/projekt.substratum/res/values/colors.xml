@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">@*android:color/background_floating_material_dark</color>
-    <color name="colorPrimaryDark">@*android:color/primary_material_dark</color>
-    <color name="statusBarColor">@*android:color/primary_material_dark</color>
     <color name="colorAccent">@*android:color/material_deep_teal_500</color>
-    <color name="bottombar_bar_background">@*android:color/primary_material_dark</color>
-    <color name="bottombar_icon_text_selected">@*android:color/white</color>
-    <color name="lunchbar_background">@*android:color/primary_material_dark</color>
-    <color name="lunchbar_text">@*android:color/white</color>
-    <color name="splashscreen_background">@*android:color/primary_material_dark</color>
-    <color name="showcase_tab_text_color">@*android:color/white</color>
-    <color name="showcase_tab_text_color_selected">@*android:color/white</color>
-    <color name="theme_card_background">@*android:color/background_floating_material_dark</color>
-    <color name="main_screen_card_theme_title">@*android:color/white</color>
-    <color name="floatui_dialog_background">@*android:color/primary_material_dark</color>
+    <color name="fab_background_color">@*android:color/material_deep_teal_500</color>
+    <color name="fab_menu_divider">#00000000</color>   <!--OG:#4a000000-->
 </resources>
