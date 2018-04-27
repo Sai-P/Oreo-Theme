@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!--Under-the-hood Stuff-->
+    <!--Under-the-hood Stuff-->
     <style name="GiftEmailTitleText">
         <item name="android:textSize">@*com.android.vending:dimen/play_purchase_title_size</item>
         <item name="android:textColor">#ffffffff</item>

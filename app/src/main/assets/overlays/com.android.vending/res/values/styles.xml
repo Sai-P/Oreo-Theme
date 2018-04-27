@@ -175,14 +175,14 @@
     <style name="RestoreDialog" parent="@*android:style/Theme.Material.Dialog.Alert">
         <item name="android:windowBackground">@*android:color/black</item>
     </style>
-	
+
     <style name="AccountPaymentMethodsIcon">
        <item name="android:layout_width">32.0dip</item>
        <item name="android:layout_height">32.0dip</item>
        <item name="android:layout_marginLeft">20.0dip</item>
        <item name="android:layout_marginRight">20.0dip</item>
        <item name="android:alpha">1.00</item>
-       <item name="android:tint">#ffdddddd</item>	
+       <item name="android:tint">#ffdddddd</item>
     </style>
 
     <style name="BundleInstallPreviewText" parent="@*com.android.vending:style/PlayPlainText">

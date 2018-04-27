@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!--Settings App-->
     <color name="background_material_dark">#81000000</color>    <!--OG:@color/material_grey_850-->
 

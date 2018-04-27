@@ -35,7 +35,6 @@
 
     <style name="SetBackupAccountActivity" parent="@*android:style/Theme.Material.Dialog" />
 
-
     <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
         <item name="android:backgroundTint">@*android:color/primary_material_dark</item>
         <item name="android:textColorHintInverse">#ffbbbbbb</item>

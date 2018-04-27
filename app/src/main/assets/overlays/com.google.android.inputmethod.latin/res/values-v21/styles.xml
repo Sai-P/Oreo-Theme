@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-	<!--Text-->
+    <!--Text-->
     <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material" />
     <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large" />
     <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium" />
@@ -9,15 +8,15 @@
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
     
-	<!--Widget-->
-	<style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <!--Widget-->
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
     <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
     <style name="SettingsButtonBorderlessColored" parent="@*android:style/Widget.Material.Button.Borderless" />
-	
-	<!--Theme-->
-	<style name="AppThemeSelector" parent="@*android:style/Theme.Material" />
+
+    <!--Theme-->
+    <style name="AppThemeSelector" parent="@*android:style/Theme.Material" />
     <style name="BaseTheme" parent="@*android:style/Theme.Material.InputMethod" />
     <style name="platformDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
     <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
@@ -41,5 +40,4 @@
     <style name="ThemeSettingsTheme" parent="@*android:style/Theme.Material.Settings">
         <item name="android:windowNoTitle">true</item>
     </style>
-		
 </resources>

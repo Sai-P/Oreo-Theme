@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!--Settings App Stuff-->
+    <!--Settings App Stuff-->
     <color name="setup_wizard_title_color">#ffffffff</color>
     <color name="setup_wizard_app_details_divider">#00000000</color>
     <color name="setup_wizard_app_details_primary_text">#ffffffff</color>
