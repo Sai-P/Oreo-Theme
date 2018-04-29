@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardview_default_radius">24.0dip</dimen>
+    <dimen name="search_bar_margin">12.0dip</dimen>
+    <dimen name="search_bar_negative_margin">-12.0dip</dimen>
+    <dimen name="search_bar_text_size">16.0dip</dimen>
+</resources>
