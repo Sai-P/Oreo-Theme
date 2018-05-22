@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="bluetooth_dialog_text_color">#8affffff</color>   <!--OG:#8a000000-->
+    <!--OmniMeme Tears-->
+    <color name="omni_logo_color">@*android:color/material_deep_teal_500</color>
+    <!--Search Panel BG-->
+    <color name="cardview_shadow_end_color">#00000000</color>   <!--OG:#03000000-->
+    <color name="cardview_shadow_start_color">#00000000</color>   <!--OG:37000000-->
+    <color name="condition_card_background">@*android:color/background_holo_dark</color>   <!--OG:#fff8f8f8-->
+    <color name="material_grey_300">@*android:color/background_material_dark</color>   <!--OG:#ffe0e0e0-->
+    <color name="suggestion_condition_background">@*android:color/background_floating_material_dark</color>   <!--OG:#fff2f2f2-->
+    <!--P-->
+    <color name="homepage_accessibility_background">#00000000</color>   <!--OG:#ff5011c1-->
+    <color name="homepage_accounts_background">#00000000</color>   <!--OG:#fff15b8d-->
+    <color name="homepage_app_and_notification_background">#00000000</color>   <!--OG:#ffff7e0f-->
+    <color name="homepage_battery_background">#00000000</color>   <!--OG:#ff258982-->
+    <color name="homepage_connected_device_background">#00000000</color>   <!--OG:#ff71a234-->
+    <color name="homepage_display_background">#00000000</color>   <!--OG:#ffffb600-->
+    <color name="homepage_generic_icon_background">#00000000</color>   <!--TBD--><!--OG:#ff1a73e8-->
+    <color name="homepage_network_background">#00000000</color>   <!--OG:#ff2196f3-->
+    <color name="homepage_security_background">#00000000</color>   <!--OG:#ff0f9d58-->
+    <color name="homepage_sound_background">#00000000</color>   <!--OG:#ff01b1af-->
+    <color name="homepage_storage_background">#00000000</color>   <!--OG:#ffc14ce6-->
+    <color name="homepage_support_background">#00000000</color>   <!--OG:#ff26459c-->
+    <color name="homepage_system_background">#00000000</color>   <!--OG:#ff757575-->
+</resources>
