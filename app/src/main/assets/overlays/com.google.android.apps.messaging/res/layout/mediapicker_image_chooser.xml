@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.messaging.ui.mediapicker.GalleryGridView android:gravity="center" android:id="@*com.google.android.apps.messaging:id/gallery_grid_view" android:background="@*android:color/background_dark" android:padding="6.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="6.0dip" android:verticalSpacing="6.0dip" android:stretchMode="columnWidth" android:columnWidth="@*com.google.android.apps.messaging:dimen/gallery_image_cell_size" android:numColumns="auto_fit" />
+    <include android:id="@*com.google.android.apps.messaging:id/missing_permission_view" layout="@*com.google.android.apps.messaging:layout/mediapicker_chooser_permissions" />
+</FrameLayout>

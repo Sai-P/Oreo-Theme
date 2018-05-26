@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearanceMedium" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Base.CardView" parent="@*android:style/Widget" />
+    <style name="ListViewStyle" parent="@*android:style/Widget.Material.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="ContactListFilterTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:listViewStyle">@*com.google.android.dialer:style/ListViewStyle</item>
+    </style>
+    <style name="BackgroundOnlyTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+    <style name="Theme.CallSubjectDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowElevation">0.0dip</item>
+    </style>
+
+    <style name="Theme.CircularRevealAnimation" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="InCallPopupMenuStyle" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+    <style name="InCallActionBarStyle" parent="@*android:style/Widget.Material.ActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#2A56C6</item>
+    </style>
+
+
+    <style name="AlertDialogTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">#2A56C6</item>
+    </style>
+    <style name="DialtactsTheme1" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="TextAppearance.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo.DialogWindowTitle">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="call_composer_toolbar_subtitle_text">
+        <item name="android:textSize">@*com.google.android.dialer:dimen/toolbar_subtitle_text_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="call_composer_toolbar_title_text">
+        <item name="android:textSize">@*com.google.android.dialer:dimen/toolbar_title_text_size</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Dialer.Incall.TextAppearance.Message" parent="@*com.google.android.dialer:style/Dialer.Incall.TextAppearance">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="EmergencyAddressTextStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="EmergencyAddressTitleTextStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CallDetailsActionItemStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+        <item name="android:drawablePadding">28.0dip</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+    <style name="LocationAddressTextStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="LocationAddressTitleTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="LocationLatLongTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="LocationLoadingTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PrimaryText" parent="@*com.google.android.dialer:style/TextAppearance.AppCompat">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="SecondaryText" parent="@*com.google.android.dialer:style/TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+
+
+    <style name="ErrorActionDeclineStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:gravity">end|center</item>
+        <item name="android:padding">8.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginStart">8.0dip</item>
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+
+
+    <style name="Dialer.Incall.TextAppearance.RttMessage" parent="@*com.google.android.dialer:style/Dialer.Incall.TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+    <style name="AfterCallDialogStyle" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">@*com.google.android.dialer:color/dialer_theme_color</item>
+    </style>
+    <style name="AfterCallNotificationTheme" parent="@*android:style/Theme.Material.Dialog">
+        <item name="android:alertDialogTheme">@*com.google.android.dialer:style/AfterCallDialogStyle</item>
+        <item name="*com.google.android.dialer:colorAccent">@*com.google.android.dialer:color/dialer_theme_color</item>
+    </style>
+    <style name="SubHeader" parent="@*com.google.android.dialer:style/TextAppearance.AppCompat">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+
+    <style name="ButtonTheme">
+        <item name="android:colorControlHighlight">#2A56C6</item>
+    </style>
+
+    <style name="LocationErrorTextStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>

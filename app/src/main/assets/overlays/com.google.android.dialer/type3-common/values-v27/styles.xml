@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialtactsTheme" parent="@*com.google.android.dialer:style/DialtactsThemeBase">
+        <item name="android:navigationBarColor">#1C3AA9</item>   <!--@*android:color/primary_material_dark-->
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">#00000000</item>
+    </style>
+    <style name="NuiActivityTheme" parent="@*com.google.android.dialer:style/NuiActivityThemeBase">
+        <item name="android:navigationBarColor">#1C3AA9</item>   <!--@*android:color/primary_material_dark-->
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">#00000000</item>
+    </style>
+</resources>

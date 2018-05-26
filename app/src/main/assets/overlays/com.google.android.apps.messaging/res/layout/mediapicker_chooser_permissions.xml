@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@*com.google.android.apps.messaging:id/missing_permission_icon" android:paddingBottom="@*com.google.android.apps.messaging:dimen/picker_permissions_icon_bottom_padding" android:layout_width="@*com.google.android.apps.messaging:dimen/picker_permissions_icon_size" android:layout_height="@*com.google.android.apps.messaging:dimen/picker_permissions_icon_size" android:src="@*com.google.android.apps.messaging:drawable/ic_camera_light" android:tint="@*com.google.android.apps.messaging:color/picker_permissions_default_icon_color" android:contentDescription="@null" />
+        <TextView android:gravity="center" android:id="@*com.google.android.apps.messaging:id/missing_permission_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.google.android.apps.messaging:string/enable_camera_permissions" style="@*com.google.android.apps.messaging:style/MediaChooserPermissionsTextStyle" />
+        <TextView android:gravity="center" android:id="@*com.google.android.apps.messaging:id/missing_permission_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@*com.google.android.apps.messaging:dimen/min_touch_target_size" android:minHeight="@*com.google.android.apps.messaging:dimen/min_touch_target_size" android:text="@*com.google.android.apps.messaging:string/enable_permissions_text" style="@*com.google.android.apps.messaging:style/MediaChooserPermissionsEnableButtonStyle" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="grayBg">@*android:color/primary_material_dark</item>
+    <item type="drawable" name="notification_template_icon_bg">#2A56C6</item>
+</resources>
