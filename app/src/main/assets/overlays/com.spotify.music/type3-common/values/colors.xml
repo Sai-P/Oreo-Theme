@@ -4,9 +4,9 @@
     <color name="share_edit_text_bg">@*android:color/background_floating_material_dark</color>
     <color name="background_material_dark">@*android:color/background_floating_material_dark</color>
     <color name="bg_filter">@*android:color/background_floating_material_dark</color>
+    <color name="bg_pressed">@*android:color/material_deep_teal_500</color>
     <color name="cat_dialog_button_background_negative_default">@*android:color/background_floating_material_dark</color>
     <color name="cat_dialog_button_bar_background">@*android:color/transparent</color>
-    <color name="black">#ff1db954</color>
     <color name="txt_dialog_text">#ffcecece</color>
     <color name="txt_button_light_disabled">#ff666666</color>
     <color name="txt_button_light_normal">#ffaaaaaa</color>
@@ -33,8 +33,14 @@
     <color name="data_saver_dark_20">#32000000</color>
     <color name="free_tier_data_saver_dark">@*android:color/background_floating_material_dark</color>
     <color name="free_tier_data_saver_dark_20">#32000000</color>
-    <color name="cat_medium_green">@*android:color/material_deep_teal_500</color>
     <color name="glue_green">@*android:color/material_deep_teal_500</color>
     <color name="glue_green_dark">@*android:color/material_deep_teal_500</color>
     <color name="glue_green_light">@*android:color/material_deep_teal_500</color>
+    <color name="glue_powder_green">@*android:color/material_deep_teal_500</color>
+    <color name="cat_light_green">@*android:color/material_deep_teal_500</color>
+    <color name="cat_light_green_20">@*android:color/material_deep_teal_500</color>
+    <color name="cat_light_green_40">@*android:color/material_deep_teal_500</color>
+    <color name="cat_light_green_5">@*android:color/material_deep_teal_500</color>
+    <color name="cat_medium_green">@*android:color/material_deep_teal_500</color>
+    <color name="cat_medium_green_40">@*android:color/material_deep_teal_500</color>
 </resources>
