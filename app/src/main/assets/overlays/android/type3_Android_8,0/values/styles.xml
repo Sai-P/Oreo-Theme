@@ -39,7 +39,7 @@
     </style>
 
 
-    <!--Dialog-->
+    <!--Dialogs-->
     <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_device_default_settings_light-->
         <item name="android:colorPrimaryDark">@*android:color/background_holo_dark</item>   <!--OG:@color/primary_dark_device_default_settings_light-->
@@ -50,6 +50,20 @@
 
     <!-- WARNING: Breaks Pixel Launcher Text -->
     <!--<style name="Theme.DeviceDefault.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />-->
+
+    <!-- WARNING: Breaks dialog text colours in various areas -->
+    <!--<style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@*android:style/Theme.Material">-->
+        <!--<item name="android:colorPrimary">@*android:color/primary_material_dark</item>-->
+        <!--<item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>-->
+        <!--<item name="android:colorAccent">@*android:color/accent_material_dark</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Light.DarkActionBar" parent="@*android:style/Theme.Material">-->
+        <!--<item name="android:actionBarWidgetTheme">@null</item>-->
+        <!--<item name="android:actionBarTheme">@*android:style/ThemeOverlay.Material.Dark.ActionBar</item>-->
+        <!--<item name="android:colorPrimary">@*android:color/primary_material_dark</item>-->
+        <!--<item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>-->
+        <!--<item name="android:popupTheme">@*android:style/ThemeOverlay.Material</item>-->
+    <!--</style>-->
 
     <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@*android:style/Theme.Material.NoActionBar.Fullscreen" />
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
@@ -207,77 +221,61 @@
     <style name="ThemeOverlay.DeviceDefault.Popup.Light" parent="@*android:style/ThemeOverlay.Material" />
 
 
-    <!--Misc.-->
-    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@*android:style/Theme.Material">
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
-    </style>
-    <style name="ThemeOverlay.DeviceDefault.Popup.Light" parent="@*android:style/ThemeOverlay.Material" />
-    <style name="Theme.Material.Light.DarkActionBar" parent="@*android:style/Theme.Material">
-        <item name="android:actionBarWidgetTheme">@null</item>
-        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.Material.Dark.ActionBar</item>
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="android:popupTheme">@*android:style/ThemeOverlay.Material</item>
-    </style>
-
-
     <!--Text Appearance-->
     <style name="TextAppearance.StatusBar" parent="@*android:style/TextAppearance">
-    <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>
     <style name="TextAppearance.StatusBar.EventContent" parent="@*android:style/TextAppearance.StatusBar">
-    <item name="android:textSize">14.0sp</item>
-    <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="TextAppearance.StatusBar.EventContent.Title" parent="@*android:style/TextAppearance.StatusBar.EventContent">
-    <item name="android:textSize">16.0sp</item>
-    <item name="android:textStyle">bold</item>
-    <item name="android:textColor">#ffffffff</item>
-    <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
     <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@*android:style/TextAppearance.StatusBar.EventContent">
-    <item name="android:textSize">12.0sp</item>
-    <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent="@*android:style/TextAppearance.StatusBar.EventContent">
-    <item name="android:textSize">12.0sp</item>
-    <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="TextAppearance.StatusBar.EventContent.Time" parent="@*android:style/TextAppearance.StatusBar.EventContent">
-    <item name="android:textSize">12.0sp</item>
-    <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="TextAppearance.StatusBar.EventContent.Emphasis" parent="@*android:style/TextAppearance.StatusBar.EventContent">
-    <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
     <!--<style name="TextAppearance.Material.Notification" parent="@*android:style/TextAppearance.Material">-->
-    <!--<item name="android:textSize">@*android:dimen/notification_text_size</item>-->
-    <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:textSize">@*android:dimen/notification_text_size</item>-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
     <!--</style>-->
     <!--<style name="TextAppearance.Material.Notification.Emphasis" parent="@*android:style/TextAppearance.Material.Notification">-->
-    <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
     <!--</style>-->
     <!--<style name="TextAppearance.Material.Notification.Info" parent="@*android:style/TextAppearance.Material.Notification">-->
-    <!--<item name="android:textSize">@*android:dimen/notification_subtext_size</item>-->
-    <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:textSize">@*android:dimen/notification_subtext_size</item>-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
     <!--</style>-->
     <!--<style name="TextAppearance.Material.Notification.Line2" parent="@*android:style/TextAppearance.Material.Notification">-->
-    <!--<item name="android:textSize">12.0sp</item>-->
-    <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:textSize">12.0sp</item>-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
     <!--</style>-->
     <!--<style name="TextAppearance.Material.Notification.Time" parent="@*android:style/TextAppearance.Material.Notification">-->
-    <!--<item name="android:textSize">12.0sp</item>-->
-    <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:textSize">12.0sp</item>-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
     <!--</style>-->
     <!--<style name="TextAppearance.Material.Notification.Title" parent="@*android:style/TextAppearance.Material.Notification">-->
-    <!--<item name="android:textSize">@*android:dimen/notification_title_text_size</item>-->
-    <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:textSize">@*android:dimen/notification_title_text_size</item>-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
     <!--</style>-->
     <!--<style name="TextAppearance.Material.Notification.Reply" parent="@*android:style/TextAppearance.Material.Notification">-->
-    <!--<item name="android:textColor">#ffffffff</item>-->
-    <!--<item name="android:textColorPrimary">#ffffffff</item>-->
-    <!--<item name="android:textColorSecondary">#ffdddddd</item>-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:textColorPrimary">#ffffffff</item>-->
+        <!--<item name="android:textColorSecondary">#ffdddddd</item>-->
     <!--</style>-->
 </resources>

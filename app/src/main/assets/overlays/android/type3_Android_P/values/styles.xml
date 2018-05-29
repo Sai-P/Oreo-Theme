@@ -41,7 +41,12 @@
     </style>
 
 
-    <!--Dialog-->
+    <!--Converts Pixel rounded corners to AOSP-style-->
+    <!--<style name="Theme.DeviceDefault" parent="@*android:style/Theme.Material" />-->
+    <!--<style name="Theme.DeviceDefault.Dark" parent="@*android:style/Theme.Material" />-->
+
+
+    <!--Dialogs-->
     <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
         <item name="android:colorPrimary">@*android:color/primary_material_dark</item>    <!--OG:@color/primary_device_default_settings_light-->
         <item name="android:colorPrimaryDark">@*android:color/background_holo_dark</item>   <!--OG:@color/primary_dark_device_default_settings_light-->
@@ -52,6 +57,20 @@
 
     <!-- WARNING: Breaks Pixel Launcher Text -->
     <!--<style name="Theme.DeviceDefault.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />-->
+
+    <!-- WARNING: Breaks dialog text colours in various areas -->
+    <!--<style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@*android:style/Theme.Material">-->
+        <!--<item name="android:colorPrimary">@*android:color/primary_material_dark</item>-->
+        <!--<item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>-->
+        <!--<item name="android:colorAccent">@*android:color/accent_material_dark</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Light.DarkActionBar" parent="@*android:style/Theme.Material">-->
+        <!--<item name="android:actionBarWidgetTheme">@null</item>-->
+        <!--<item name="android:actionBarTheme">@*android:style/ThemeOverlay.Material.Dark.ActionBar</item>-->
+        <!--<item name="android:colorPrimary">@*android:color/primary_material_dark</item>-->
+        <!--<item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>-->
+        <!--<item name="android:popupTheme">@*android:style/ThemeOverlay.Material</item>-->
+    <!--</style>-->
 
     <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@*android:style/Theme.Material.NoActionBar.Fullscreen" />
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
@@ -207,22 +226,6 @@
         <item name="android:alertDialogTheme">@*android:style/Theme.Material.Dialog.Alert</item>
     </style>
     <style name="ThemeOverlay.DeviceDefault.Popup.Light" parent="@*android:style/ThemeOverlay.Material" />
-
-
-    <!--Misc.-->
-    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@*android:style/Theme.Material">
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
-    </style>
-    <style name="ThemeOverlay.DeviceDefault.Popup.Light" parent="@*android:style/ThemeOverlay.Material" />
-    <style name="Theme.Material.Light.DarkActionBar" parent="@*android:style/Theme.Material">
-        <item name="android:actionBarWidgetTheme">@null</item>
-        <item name="android:actionBarTheme">@*android:style/ThemeOverlay.Material.Dark.ActionBar</item>
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
-        <item name="android:popupTheme">@*android:style/ThemeOverlay.Material</item>
-    </style>
 
 
     <!--Text Appearance-->
