@@ -4,6 +4,7 @@ Author: Sai (InFlames03)
 -->
 <resources>
     <!--Accent Colour-->
+    <color name="accent_device_default_light">#775BA3</color>
     <color name="material_deep_teal_500">#775BA3</color> <!--OG:#ff009688-->
     <color name="system_notification_accent_color">#775BA3</color> <!--OG:#ff607d8b-->
 
