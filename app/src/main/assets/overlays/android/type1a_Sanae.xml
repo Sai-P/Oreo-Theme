@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: Sai (InFlames03)
+-->
+<resources>
+    <!--Accent Colour-->
+    <color name="accent_device_default_light">#12DC4E</color>
+    <color name="material_deep_teal_500">#12DC4E</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#12DC4E</color>   <!--OG:#ff607d8b-->
+
+    <!--Volume Panel-->
+    <color name="material_deep_teal_200">#12DC4E</color>    <!--OG:#ff80cbc4-->
+</resources>
