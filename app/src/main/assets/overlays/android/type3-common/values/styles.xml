@@ -4,6 +4,7 @@
     <!--Settings App-->
     <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material.Settings">
         <item name="android:colorControlNormal">@*android:color/material_deep_teal_500</item>
+        <item name="android:listDivider">@*android:color/transparent</item>
 	</style>
 
 </resources>
