@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@*com.google.android.dialer:id/calllog_frame" android:background="@*android:color/primary_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.common.list.ViewPagerTabs android:layout_gravity="top" android:orientation="horizontal" android:id="@*com.google.android.dialer:id/viewpager_header" android:layout_width="fill_parent" android:layout_height="0.0dp" android:textAllCaps="true" android:elevation="0.0dp" style="@*com.google.android.dialer:style/DialtactsActionBarTabTextStyle" />
+    <android.support.v4.view.ViewPager android:id="@*com.google.android.dialer:id/call_log_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@*com.google.android.dialer:id/floating_action_button_container" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

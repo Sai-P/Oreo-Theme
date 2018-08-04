@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@*com.google.android.dialer:dimen/abc_button_inset_horizontal_material" android:insetRight="@*com.google.android.dialer:dimen/abc_button_inset_horizontal_material" android:insetTop="@*com.google.android.dialer:dimen/abc_button_inset_vertical_material" android:insetBottom="@*com.google.android.dialer:dimen/abc_button_inset_vertical_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@*com.google.android.dialer:dimen/abc_control_corner_material" />
+        <solid android:color="@*android:color/button_material_dark" />
+        <padding android:left="@*com.google.android.dialer:dimen/abc_button_padding_horizontal_material" android:top="@*com.google.android.dialer:dimen/abc_button_padding_vertical_material" android:right="@*com.google.android.dialer:dimen/abc_button_padding_horizontal_material" android:bottom="@*com.google.android.dialer:dimen/abc_button_padding_vertical_material" />
+    </shape>
+</inset>

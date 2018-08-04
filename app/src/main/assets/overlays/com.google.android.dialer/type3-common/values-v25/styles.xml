@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar" />
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:windowElevation">0.5dip</item>
+    </style>
 </resources>

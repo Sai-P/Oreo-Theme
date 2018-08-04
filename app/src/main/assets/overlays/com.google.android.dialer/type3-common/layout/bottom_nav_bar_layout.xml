@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.android.dialer.main.impl.bottomnav.BottomNavBar android:orientation="horizontal" android:background="#ff2a56c6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="8.0dip"
+<com.android.dialer.main.impl.bottomnav.BottomNavBar android:orientation="horizontal" android:background="#2A56C6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="8.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <include android:id="@*com.google.android.dialer:id/speed_dial_tab" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@*com.google.android.dialer:layout/bottom_nav_item" />
     <include android:id="@*com.google.android.dialer:id/call_log_tab" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@*com.google.android.dialer:layout/bottom_nav_item" />

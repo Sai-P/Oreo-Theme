@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@*com.google.android.dialer:dimen/bubble_radius" android:topRightRadius="@*com.google.android.dialer:dimen/bubble_radius" android:bottomLeftRadius="@*com.google.android.dialer:dimen/bubble_radius" android:bottomRightRadius="@*com.google.android.dialer:dimen/bubble_radius" />
+    <solid android:color="@*android:color/button_material_dark" />
+</shape>

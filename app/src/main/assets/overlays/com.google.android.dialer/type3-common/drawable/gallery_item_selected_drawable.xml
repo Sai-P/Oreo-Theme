@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="1.0dip" android:color="#2A56C6" />
+            <solid android:color="@*android:color/button_material_dark" />
+            <size android:height="@*com.google.android.dialer:dimen/gallery_check_size" android:width="@*com.google.android.dialer:dimen/gallery_check_size" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@*com.google.android.dialer:drawable/quantum_ic_check_black_24" android:tint="#2A56C6" />
+    </item>
+</layer-list>
