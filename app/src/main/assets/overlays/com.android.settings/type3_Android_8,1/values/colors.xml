@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="bluetooth_dialog_text_color">#8affffff</color>   <!--OG:#8a000000-->
+    <color name="bluetooth_dialog_text_color">#8affffff</color>   <!--OG:#8a000000-->
     <!--OmniMeme Tears-->
     <color name="omni_logo_color">@*android:color/material_deep_teal_500</color>
     <!--Search Panel BG-->
@@ -9,4 +9,7 @@
     <color name="condition_card_background">@*android:color/background_holo_dark</color>   <!--OG:#fff8f8f8-->
     <color name="material_grey_300">@*android:color/background_material_dark</color>   <!--OG:#ffe0e0e0-->
     <color name="suggestion_condition_background">@*android:color/background_floating_material_dark</color>   <!--OG:#fff2f2f2-->
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg_activated">@android:color/background_material_dark</drawable>
+    <drawable name="expanded_item_bg">@*android:color/background_floating_material_dark</drawable>
 </resources>
