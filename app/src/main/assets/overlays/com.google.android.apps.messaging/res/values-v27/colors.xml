@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="light_navigation_bar_color">#ff000000</color>
-    <color name="light_navigation_bar_divider_color">#00000000</color>
-    <color name="photo_view_navigation_bar_color">#73000000</color>
-</resources>

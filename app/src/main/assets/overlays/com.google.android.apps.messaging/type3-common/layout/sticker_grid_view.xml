@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.messaging.ui.mediapicker.StickerGridView android:gravity="center" android:id="@*com.google.android.apps.messaging:id/sticker_category_grid_view" android:background="@*android:color/primary_material_dark" android:padding="6.0dip" android:clipToPadding="false" android:horizontalSpacing="6.0dip" android:verticalSpacing="6.0dip" android:stretchMode="columnWidth" android:columnWidth="@*com.google.android.apps.messaging:dimen/sticker_grid_image_size" android:numColumns="auto_fit"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
