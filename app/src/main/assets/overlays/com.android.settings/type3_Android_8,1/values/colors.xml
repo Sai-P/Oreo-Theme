@@ -10,6 +10,6 @@
     <color name="material_grey_300">@*android:color/background_material_dark</color>   <!--OG:#ffe0e0e0-->
     <color name="suggestion_condition_background">@*android:color/background_floating_material_dark</color>   <!--OG:#fff2f2f2-->
     <!-- Expanded desktop -->
-    <drawable name="expanded_item_bg_activated">@android:color/background_material_dark</drawable>
+    <drawable name="expanded_item_bg_activated">@*android:color/background_material_dark</drawable>
     <drawable name="expanded_item_bg">@*android:color/background_floating_material_dark</drawable>
 </resources>
