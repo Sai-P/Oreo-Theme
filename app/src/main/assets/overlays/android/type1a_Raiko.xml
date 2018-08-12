@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Author: Sai (InFlames03)
+Author: Sai (BakaSai)
 -->
 <resources>
     <!--Accent Colour-->
     <color name="accent_device_default_light">#E34242</color>
-    <color name="material_deep_teal_500">#E34242</color> <!--OG:#ff009688-->
-    <color name="system_notification_accent_color">#E34242</color> <!--OG:#ff607d8b-->
-
-    <!--Volume Panel-->
-    <color name="material_deep_teal_200">#E34242</color>    <!--OG:#ff80cbc4-->
+    <color name="accent_device_default_dark">#E34242</color>
+    <color name="material_deep_teal_200">#E34242</color>   <!--OG:#ff80cbc4-->
+    <color name="material_deep_teal_500">#E34242</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#E34242</color>   <!--OG:#ff607d8b-->
 </resources>

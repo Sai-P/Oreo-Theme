@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Author: Sai (BakaSai)
+-->
 <resources>
     <!--Settings App-->
     <color name="background_material_dark">#1C1C1D</color>    <!--OG:@color/material_grey_850-->
