@@ -11,10 +11,6 @@
     <style name="Theme.SettingsAlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.SettingsDialog" parent="@*android:style/Theme.Material.Dialog.NoActionBar" />
     <style name="Theme.SmartBar.Dialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
-
-    <style name="CardView" parent="@*com.android.settings:style/Base.CardView">
-        <item name="*com.android.settings:cardCornerRadius">24.0dip</item>
-    </style>
     <style name="SuggestionConditionStyle">
         <item name="android:background">@*android:color/transparent</item>
     </style>
