@@ -27,7 +27,7 @@ ext {
 
 android {
     compileSdkVersion 28
-
+    buildToolsVersion '28.0.2'
     android.applicationVariants.all { final variant ->
         variant.outputs.all {
             outputFileName = "oreo-theme-v${variant.versionCode}.apk"
