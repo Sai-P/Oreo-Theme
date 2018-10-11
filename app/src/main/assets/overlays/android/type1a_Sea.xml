@@ -4,9 +4,9 @@ Author: Sai (BakaSai)
 -->
 <resources>
     <!--Accent Colour-->
-    <color name="accent_device_default_light">#A6F6C9</color>
-    <color name="accent_device_default_dark">#A6F6C9</color>
-    <color name="material_deep_teal_200">#A6F6C9</color>   <!--OG:#ff80cbc4-->
-    <color name="material_deep_teal_500">#A6F6C9</color>   <!--OG:#ff009688-->
-    <color name="system_notification_accent_color">#A6F6C9</color>   <!--OG:#ff607d8b-->
+    <color name="accent_device_default_light">#66DEA4</color>
+    <color name="accent_device_default_dark">#66DEA4</color>
+    <color name="material_deep_teal_200">#66DEA4</color>   <!--OG:#ff80cbc4-->
+    <color name="material_deep_teal_500">#66DEA4</color>   <!--OG:#ff009688-->
+    <color name="system_notification_accent_color">#66DEA4</color>   <!--OG:#ff607d8b-->
 </resources>
